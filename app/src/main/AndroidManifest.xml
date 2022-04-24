@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.aegis.testnewmvpdataview">
 
+
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <!-- 缓存案例到 sdcard -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <!--往sdcard中写入数据的权限 -->

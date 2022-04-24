@@ -42,8 +42,6 @@ dependencies {
     // 一些工具类
     api 'com.blankj:utilcode:1.29.0'
 
-    // 权限
-    api 'com.yanzhenjie:permission:2.0.3'
 
     //腾讯MMKV
     implementation 'com.tencent:mmkv-static:1.2.10'
@@ -52,5 +50,9 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-gson:2.6.0'
     implementation 'com.squareup.retrofit2:adapter-rxjava2:2.5.0'
     api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4'
+
+    //  有向无环图  顺序加载 第三方库
+    implementation 'io.github.idisfkj:android-startup:1.1.0'
+
 
 }
