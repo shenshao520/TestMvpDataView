@@ -33,6 +33,9 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> implements M
         adapter = new CityAdapter();
         getBinding().rvResult.setAdapter(adapter);
 
+        getLifecycle().addObserver(mMainPresenter);
+        getLifecycle().addObserver(mCityPresenter);
+
     }
 
 
