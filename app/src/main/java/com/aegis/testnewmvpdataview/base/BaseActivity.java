@@ -11,7 +11,9 @@ import com.aegis.testnewmvpdataview.utils.ViewBindingUtils;
 import com.aegis.testnewmvpdataview.proxy.IBaseMvpProxy;
 import com.aegis.testnewmvpdataview.proxy.MvpProxyImpl;
 
-public abstract class BaseActivity<VB extends ViewBinding> extends AppCompatActivity implements BaseView {
+import me.jessyan.autosize.internal.CustomAdapt;
+
+public abstract class BaseActivity<VB extends ViewBinding> extends AppCompatActivity implements BaseView  {
 
     private VB binding;
     private IBaseMvpProxy mvpProxy;
@@ -54,4 +56,7 @@ public abstract class BaseActivity<VB extends ViewBinding> extends AppCompatActi
         //释放Presenter
         mvpProxy.unbindMvpPresenter();
     }
+
+
+
 }

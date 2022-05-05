@@ -5,18 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/btn_city"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="获取城市" />
 
 
     <Button
         android:id="@+id/btn_Main"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="获取天气" />
 
@@ -25,6 +26,7 @@
     <TextView
         android:id="@+id/tv_main_result"
         android:layout_width="match_parent"
+        android:textSize="16sp"
         android:layout_height="wrap_content"/>
 
 

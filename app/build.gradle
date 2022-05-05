@@ -54,5 +54,6 @@ dependencies {
     //  有向无环图  顺序加载 第三方库
     implementation 'io.github.idisfkj:android-startup:1.1.0'
 
-
+    //屏幕适配
+    api 'me.jessyan:autosize:1.2.1'
 }

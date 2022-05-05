@@ -13,6 +13,8 @@ import com.aegis.testnewmvpdataview.modelBean.WeatherBean;
 import com.aegis.testnewmvpdataview.presenter.MainPresenter;
 import com.aegis.testnewmvpdataview.presenter.CityPresenter;
 
+import me.jessyan.autosize.internal.CustomAdapt;
+
 public class MainActivity extends BaseActivity<ActivityMainBinding> implements MainViewImpl<WeatherBean>, CityViewImpl<CityBean> {
 
     @InjectPresenter
@@ -64,4 +66,6 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> implements M
             adapter.setNewInstance(bean.location);
         }
     }
+
+
 }
